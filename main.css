@@ -7,7 +7,7 @@
 }
 .header{
     width: 100%;
-    background-image:linear-gradient(rgba(4, 6, 18, 0.7),rgba(4, 6, 18, 0.7)),url(/bck-ground.jpg);
+    background-image:linear-gradient(rgba(4, 6, 18, 0.7),rgba(4, 6, 18, 0.7)),url(bck-ground.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
