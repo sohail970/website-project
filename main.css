@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.header{
+    width: 100%;
+    background-image:linear-gradient(rgba(4, 6, 18, 0.7),rgba(4, 6, 18, 0.7)),url(/bck-ground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+    
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    overflow: hidden;
+    
+}
+nav img{
+    width: 120px;
+    background: none;
+    border-radius: 50px;
+    
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #009688;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.container{
+    color: antiquewhite;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 60px;
+    color: #fff;
+
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+.text-box a{
+  background-color: #555555; 
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+
+}
+
+.text-box a:hover{
+    background-color: #4CAF50; /* Green */
+  color: white;
+}
+.history{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 6, 18, 0.7),rgba(4, 6, 18, 0.7)),url(/banner.jpg);
+    background-size: cover;
+    background-position: center;
+   
+
+ }
+ .history h1{
+   height: 100px;
+   width: 100%;
+   color: #fff;
+   line-height: 4;
+   text-align: center;
+   font-size: 50px;  
+   padding-top:20px;
+   padding-bottom:5px;
+   
+ }
+ 
+ 
+ .history p{
+    font-size: 20px;
+    color: #fff;
+   font-weight: lighter;
+   text-align: left;
+   position:relative; 
+   top:60px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.facts-col{
+    order:3px solid #9b2a2a;
+    color:#d66161;
+    font-size:14px;
+    display:block;
+    float:left;
+    width:100%;
+    display: block; 
+    position: relative;
+    
+}
+#playerspage{
+    background: #3333;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+
+
+.cover{
+    width: 950px;
+    height: 400px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.box{
+    margin: 10px;
+    width: 800px;
+    height: 500px;
+    box-shadow: -1px 0 50px #000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+#contact{
+    background: #3333;
+    font-size: 15px;
+    font-family: sans-serif;
+
+
+}
+.contact-info{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: rgb(189, 53, 53);
+    color: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+    color: #fff;
+}
+.contact-info h1{
+    margin-bottom: 10px;
+
+}
+.contact-info p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.input-row .input-group{
+    flex-basis: 45%;
+
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 2px solid #333;
+    outline: none;
+    padding: 10px;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #000;
+}
+button{
+    background:  #3a1ce2;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+
+
+   
+
+  
+
+
+
+    
+
+
+
+
+
